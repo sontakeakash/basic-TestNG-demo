@@ -15,11 +15,12 @@ pipeline
             steps 
             { 
               echo 'Test project' 
-            }
-            script
+              script
               {
                 bat(/mvn clean test -DsuiteFile=TestNG.xml/)
               }
+            }
+            
         } 
         stage('Deploy') 
         { 
