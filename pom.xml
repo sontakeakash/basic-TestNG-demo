@@ -75,7 +75,7 @@
 			<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>${suiteToRun}</suiteXmlFile>
+						<suiteXmlFile>${suiteToRun}.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 		  </plugin>
