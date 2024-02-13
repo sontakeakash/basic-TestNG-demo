@@ -17,7 +17,7 @@ pipeline
               echo 'Test project' 
               script
               {
-                bat(/mvn clean test -DsuiteFile=${suiteToRun}.xml/)
+                bat(/mvn clean test -DsuiteFile=TestNG.xml/)
               }
             }
             
